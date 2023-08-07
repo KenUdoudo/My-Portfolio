@@ -1,7 +1,7 @@
 const Navbar = () =>{
     return (
-        <div>
-            <ul>
+        <div className="bg-black">
+            <ul className="flex flex-row">
                 <li>Home</li>
                 <li>About</li>
                 <li>Service</li>
