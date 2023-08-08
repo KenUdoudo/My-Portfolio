@@ -1,6 +1,6 @@
 const Navbar = () =>{
     return (
-        <div className="bg-black border-0">
+        <div className="bg-black border-0 rounded">
             <ul className="flex flex-row gap-x-5">
                 <li>Home</li>
                 <li>About</li>
