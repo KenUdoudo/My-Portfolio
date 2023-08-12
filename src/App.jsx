@@ -6,7 +6,8 @@ function App() {
   return (
     <div>
       <Navbar />
-      <p>working</p>
+      
+      <Sec1 />
     </div>
   )
 }
