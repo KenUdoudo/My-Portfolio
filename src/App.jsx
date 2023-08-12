@@ -5,7 +5,7 @@ import Sec1 from './section1'
 
 function App() {
   return (
-    <div>
+    <div className='flex flex-col justify-center items-center'>
       <Navbar />
       
       <Sec1 />
