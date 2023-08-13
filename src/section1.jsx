@@ -8,7 +8,7 @@ const Sec1 = () =>{
            <p>Kendo's exceptional web design ensured our website's success. Highly recommended!</p>
            <div>
             <button>Portfolio</button>
-            <b>Hire Me</b>
+            <button>Hire Me</button>
            </div>
         </div>
     )
