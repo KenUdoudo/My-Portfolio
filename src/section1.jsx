@@ -1,7 +1,7 @@
 const Sec1 = () =>{
     return (
         <div>
-        <div className="flex flex-col justify-center items-center">
+        <div className="flex flex-col justify-center items-center gap-y-5">
            <p className="text-xl font-semibold">Hello</p>
            <h2 className="text-4xl font-semibold">I'm <span className="text-red-400">Kendo</span>, Web Developer</h2>
         </div>
