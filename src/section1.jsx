@@ -6,7 +6,7 @@ const Sec1 = () =>{
            <h2 className="text-4xl font-semibold">I'm <span className="text-red-400">Kendo</span>, Web Developer</h2>
         </div>
            <p>Kendo's exceptional web design ensured our website's success. Highly recommended!</p>
-           <div>
+           <div className="flex flex-row">
             <button>Portfolio</button>
             <button>Hire Me</button>
            </div>
