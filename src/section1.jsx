@@ -6,6 +6,10 @@ const Sec1 = () =>{
            <h2 className="text-4xl font-semibold">I'm <span className="text-red-400">Kendo</span>, Web Developer</h2>
         </div>
            <p>Kendo's exceptional web design ensured our website's success. Highly recommended!</p>
+           <div>
+            <button>Portfolio</button>
+            <b>Hire Me</b>
+           </div>
         </div>
     )
 }
