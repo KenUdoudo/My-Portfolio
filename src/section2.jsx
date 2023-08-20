@@ -3,7 +3,7 @@ const Sec2 = () => {
         <div className="bg-black mx-32 text-white h-96 rounded-md">
             <div className="flex flex-row gap-x-20">
                 <p>My <span className="text-red-400">Services</span></p>
-                <p className="text-sm">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum dolorum consequatur ratione accusantium illum.</p>
+                <p className="text-sm">Lorem ipsum dolor sit, amet consectetur adipisicing elit. <br /> Earum dolorum consequatur ratione accusantium illum.</p>
             </div>
         </div>
     );
