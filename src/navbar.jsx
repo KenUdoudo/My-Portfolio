@@ -2,12 +2,11 @@ const Navbar = () =>{
     return (
         <div className="bg-black border-0 rounded w-4/5">
             <ul className="flex flex-row gap-x-5 text-white justify-center items-center p-4 mt-10">
-                <a href="#"><li>Home</li></a>
-                <a href="#"><li>About</li></a>
-                <a href="#"><li>Service</li></a>
-                <a href="#"><li>Resume</li></a>
-                <a href="#"><li>Project</li></a>
-                <a href="#"><li>Contact Me</li></a>
+                <a href="#"><li>HOME</li></a>
+                <a href="#"><li>ABOUT</li></a>
+                <a href="#"><li>BLOG CATEGORIES</li></a>
+                <a href="#"><li>VIDEOS</li></a>
+                <a href="#"><li>GAME<span>RANX</span></li></a>
             </ul>
         </div>
     )
