@@ -2,7 +2,7 @@ import logo from '../assets/blacklogo.svg';
 
 const Navbar = () =>{
     return (
-        <div className="absolute top-[10px] px-[10px] w-full">
+        <div className="absolute top-[10px] px-[10px] w-full z-20">
             <div className='bg-white px-[40px] py-[7px] rounded-xl flex flex-row justify-between items-center'>
              <div className='flex flex-row items-center gap-[10px] cursor-pointer'>
                 <img src={ logo } className='w-[50px] h-[50px]'/>
