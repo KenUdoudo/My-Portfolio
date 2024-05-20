@@ -1,8 +1,8 @@
-import sec1home from "./section1";
+import Sec1home from "./section1";
 const Home = () => {
     return (  
         <div>
-           <sec1home />
+          <Sec1home />
         </div>
     );
 }

@@ -1,5 +1,5 @@
-import bg from '../assets/mainbg.svg';
-const sec1home = () => {
+import bg from './assets/mainbg.svg';
+const Sec1home = () => {
     return (  
         <div>
             <img src={ bg }/>
@@ -7,4 +7,4 @@ const sec1home = () => {
     );
 }
  
-export default sec1home;
+export default Sec1home;
