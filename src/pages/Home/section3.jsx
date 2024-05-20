@@ -18,17 +18,17 @@ const Sec3home = () => {
                 <div className='h-[50px] w-[50px] bg-[#1b6535] rounded-full shadow-xl'></div>
             </div>
 
-            <div className="flex flex-row w-full h-[400px]">
-                <div className={`${tab === 0 ? "w-[60%]" : "w-[35%]"}`} onClick={()=> setTab(0)}>
+            <div className="flex flex-row w-full h-[500px] gap-x-[10px] mt-[50px]">
+                <div className={`${tab === 0 ? "w-[60%]" : "w-[30%]"}`} onClick={()=> setTab(0)}>
                     <img src={ one } className="object-cover w-full h-full"/>
                 </div>
-                <div className={`${tab === 1 ? "w-[60%]" : "w-[35%]"} `} onClick={()=> setTab(1)}>
+                <div className={`${tab === 1 ? "w-[60%]" : "w-[30%]"} `} onClick={()=> setTab(1)}>
                     <img src={ two } className="object-cover w-full h-full"/>
                 </div>
-                <div className={`${tab === 2 ? "w-[60%]" : "w-[35%]"} `} onClick={()=> setTab(2)}>
+                <div className={`${tab === 2 ? "w-[60%]" : "w-[30%]"} `} onClick={()=> setTab(2)}>
                     <img src={ three } className="object-cover w-full h-full"/>
                 </div>
-                <div className={`${tab === 3 ? "w-[60%]" : "w-[35%]"} `} onClick={()=> setTab(3)}>
+                <div className={`${tab === 3 ? "w-[60%]" : "w-[30%]"} `} onClick={()=> setTab(3)}>
                     <img src={ four } className="object-cover w-full h-full"/>
                 </div>
             </div>
