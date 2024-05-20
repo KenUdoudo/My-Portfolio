@@ -4,10 +4,10 @@ const Sec1home = () => {
         <div>
             <img src={ bg } className='h-[100vh] w-full object-cover'/>
 
-            <div className='absolute top-[40%] z-10 flex flex-col items-start gap-y-[20px]'>
-                <p className='text-[30px] text-white font-extrabold'>POWERED BY <br />COMPUTER SCIENCE</p>
-                <p>Empowered to Excel</p>
-                <p className='bg-[#1b6535] text-white py-[10px] px-[20px] cursor-pointer hover:bg-[#30854e] rounded-lg'>Learn About</p>
+            <div className='absolute top-[35%] z-10 flex flex-col items-start gap-y-[10px] px-[50px]'>
+                <p className='text-[45px] text-white font-extrabold'>POWERED BY <br />COMPUTER SCIENCE</p>
+                <p className='text-[30px] text-white'>Empowered to Excel</p>
+                <p className='bg-[#1b6535] text-white py-[10px] px-[30px] cursor-pointer hover:bg-[#30854e] rounded-xl'>Learn About</p>
             </div>
         </div>
     );
