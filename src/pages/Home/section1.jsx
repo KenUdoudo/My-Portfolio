@@ -8,7 +8,7 @@ const Sec1home = () => {
             <div className='absolute top-[35%] z-10 flex flex-col items-start gap-y-[10px] px-[50px]'>
                 <p className='text-[45px] text-white font-extrabold'>POWERED BY <br />COMPUTER SCIENCE</p>
                 <p className='text-[30px] text-white'>Empowered to Excel</p>
-                <p className='bg-[#1b6535] text-white py-[10px] px-[30px] cursor-pointer hover:bg-[#30854e] rounded-xl'>Learn About</p>
+                <p className='bg-[#1b6535] text-white py-[10px] px-[30px] cursor-pointer hover:bg-[#30854e] rounded-xl transition-all duration-500'>Learn About</p>
             </div></div>
         </div>
     );

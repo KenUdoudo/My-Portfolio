@@ -10,19 +10,19 @@ const Navbar = () =>{
              </div>
 
              <div className='flex flex-row justify-center items-center gap-x-[40px]'>
-                <p className='hover:text-[#e9e9e9] cursor-pointer'>Home</p>
-                <p className='hover:text-[#e9e9e9] cursor-pointer'>About</p>
-                <p className='hover:text-[#e9e9e9] cursor-pointer'>Events</p>
-                <p className='hover:text-[#e9e9e9] cursor-pointer'>Library</p>
-                <p className='hover:text-[#e9e9e9] cursor-pointer'>QHub</p>
+                <p className='hover:text-[#e9e9e9] cursor-pointer transition-all duration-500'>Home</p>
+                <p className='hover:text-[#e9e9e9] cursor-pointer transition-all duration-500'>About</p>
+                <p className='hover:text-[#e9e9e9] cursor-pointer transition-all duration-500'>Events</p>
+                <p className='hover:text-[#e9e9e9] cursor-pointer transition-all duration-500'>Library</p>
+                <p className='hover:text-[#e9e9e9] cursor-pointer transition-all duration-500'>QHub</p>
                 <div>
-                    <p className='hover:text-[#e9e9e9] cursor-pointer'>Resources</p>
+                    <p className='hover:text-[#e9e9e9] cursor-pointer transition-all duration-500'>Resources</p>
 
                 </div>
-                <p className='hover:text-[#e9e9e9] cursor-pointer'>Alumini</p>
+                <p className='hover:text-[#e9e9e9] cursor-pointer transition-all duration-500'>Alumini</p>
              </div>
 
-             <p className='bg-[#1b6535] text-white py-[10px] px-[20px] cursor-pointer hover:bg-[#30854e] rounded-lg'>Contact Us</p>
+             <p className='bg-[#1b6535] text-white py-[10px] px-[20px] cursor-pointer hover:bg-[#30854e] rounded-lg transition-all duration-500'>Contact Us</p>
            </div>
         </div>
     )
