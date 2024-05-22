@@ -15,7 +15,7 @@ const Sec3home = () => {
                         <p className='text-[18px]'>Meet the Executive Committee</p>
                     </div>
                 </div>
-                <div className='h-[50px] w-[50px] bg-[#1b6535] rounded-full shadow-xl'></div>
+                <div className='h-[50px] w-[50px] bg-[#1b6535] rounded-full shadow-xl cursor-pointer hover:bg-[#30854e] transition-all duration-500'></div>
             </div>
 
             <div className="flex flex-row w-full h-[500px] gap-x-[10px] mt-[50px]">
