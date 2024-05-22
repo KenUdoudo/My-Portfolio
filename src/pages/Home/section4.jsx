@@ -38,13 +38,13 @@ const Sec4home = () => {
                     <div className="flex flex-col gap-[30px]">
                         <div className="w-[500px] h-[300px] shadow-2xl rounded-xl bg-white relative">
                             <div className="absolute bottom-[10px] flex flex-row justify-between items-center w-full  px-[10px]">
-                                <p className="leading-[0.9]"><span className="text-[22px] font-bold">16th</span><br />January</p>
+                                <p className="leading-[0.9]"><span className="text-[22px] font-bold">17th</span><br />February</p>
                                 <p className="text-[22px] text-right font-bold leading-[0.9]">Freshers<br />Orientation</p>
                             </div>
                         </div>
                         <div className="w-[500px] h-[200px] shadow-2xl rounded-xl bg-white relative">
                             <div className="absolute bottom-[10px] flex flex-row justify-between items-center w-full  px-[10px]">
-                                <p className="leading-[0.9]"><span className="text-[22px] font-bold">3rd</span><br />February</p>
+                                <p className="leading-[0.9]"><span className="text-[22px] font-bold">18th</span><br />February</p>
                                 <p className="text-[22px] text-right font-bold leading-[0.9]">EXAM WEEK</p>
                             </div>
                         </div>
