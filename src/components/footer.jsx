@@ -30,8 +30,15 @@ const Footer = () => {
                 <div className='flex flex-row justify-center items-start gap-[70px]'>
                     <div className='flex flex-col justify-start gap-[15px]'>
                         <p className='text-white font-semibold cursor-default hover:border-b-[3px] transition-all duration-200'>Contact Us</p>
-                        <p className='text-white text-[13px]'><span>Email:</span> hello@nacos.mtu.edu.ng</p>
-                        <p className='text-white text-[13px]'><span>Address:</span> College of Basic and <br /> Applied Sciences, Mountain Top <br />University, Km 12 Lagos Ibadan <br />Expressway, Ogun State.</p>
+                        <p className='text-white text-[13px] cursor-pointer'><span className='font-bold'>Email:</span> hello@nacos.mtu.edu.ng</p>
+                        <p className='text-white text-[13px] cursor-default'><span className='font-bold'>Address:</span> College of Basic and <br /> Applied Sciences, Mountain Top <br />University, Km 12 Lagos Ibadan <br />Expressway, Ogun State.</p>
+                    </div>
+                    <div className='flex flex-col justify-start gap-[10px]'>
+                        <p className='text-white font-semibold cursor-default hover:border-b-[3px] transition-all duration-200'>FOLLOW US</p>
+                        <p className='text-white text-[13px] cursor-default'>We are on socials</p>
+                        <div>
+                            
+                        </div>
                     </div>
                 </div>
             </div>
