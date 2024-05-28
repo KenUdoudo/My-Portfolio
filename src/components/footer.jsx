@@ -16,7 +16,10 @@ const Footer = () => {
 
                 <div className=' flex flex-row justify-center items-start gap-[70px]'>
                     <div className='flex flex-col justify-start gap-[15px]'>
-                        <p className='text-white font-semibold cursor-default hover:border-b-[3px] transition-all duration-200'>NACOS</p>
+                        <div className='relative text-white group'>
+                            <span className='transition-all duration-300 ease-in-out'>NACOS</span>
+                            <span className='absolute bottom-[-7px] left-0 w-0 h-[3px] bg-white transition-all duration-300 ease-in-out group-hover:w-full'></span>
+                        </div>
                         <p className='text-white cursor-pointer hover:text-[#e1bb72] text-[13px]'>Home</p>
                         <p className='text-white cursor-pointer hover:text-[#e1bb72] text-[13px]'>About</p>
                         <p className='text-white cursor-pointer hover:text-[#e1bb72] text-[13px]'>Events</p>
