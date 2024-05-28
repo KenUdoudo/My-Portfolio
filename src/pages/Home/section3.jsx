@@ -3,19 +3,21 @@ import one from './assets/1.jpg';
 import two from './assets/2.jpg';
 import three from './assets/3.jpg';
 import four from './assets/4.jpg';
+import { CgProfile } from "react-icons/cg";
+import { LiaArrowRightSolid } from "react-icons/lia";
 const Sec3home = () => {
     const [tab, setTab] = useState(0);
     return (  
         <div className="px-[50px] mt-[100px]">
             <div className="flex flex-row justify-between items-center w-full">
                 <div className='flex flex-row items-center gap-[10px]'>
-                    <div className='h-[50px] w-[50px] bg-[#d7fec8] rounded-full shadow-xl'></div>
+                    <div className='h-[50px] w-[50px] bg-[#d7fec8] rounded-full shadow-xl'><CgProfile className='text-[#1b6535]'/></div>
                     <div>
                         <p className='text-[28px] font-bold'>Executives</p>
                         <p className='text-[18px]'>Meet the Executive Committee</p>
                     </div>
                 </div>
-                <div className='h-[50px] w-[50px] bg-[#1b6535] rounded-full shadow-xl cursor-pointer hover:bg-[#30854e] transition-all duration-500'></div>
+                <div className='h-[50px] w-[50px] bg-[#1b6535] rounded-full shadow-xl cursor-pointer hover:bg-[#30854e] transition-all duration-500'><LiaArrowRightSolid className='text-white'/></div>
             </div>
 
             <div className="flex flex-row w-full h-[500px] gap-x-[10px] mt-[50px]">
