@@ -1,4 +1,6 @@
 import bg from './assets/mainbg.svg';
+import greenlogo from './assets/NNL2.png';
+import schoollogo from './assets/schoollogo.png';
 const Sec1home = () => {
     return (  
         <div>
@@ -10,6 +12,14 @@ const Sec1home = () => {
                 <p className='text-[30px] text-white'>Empowered to Excel</p>
                 <p className='bg-[#1b6535] text-white py-[10px] px-[30px] cursor-pointer hover:bg-[#30854e] rounded-xl transition-all duration-500'>Learn About</p>
             </div></div>
+
+            <div>
+                <div>
+                    <img src={ greenlogo } />
+                    <p>|</p>
+                    <img src={ schoollogo }/>
+                </div>
+            </div>
         </div>
     );
 }
