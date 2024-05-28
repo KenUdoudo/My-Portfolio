@@ -7,7 +7,7 @@ const Sec2home = () => {
             <div className='flex flex-row justify-between items-center w-full'>
                 <div className='w-[50%]'>
                     <div className='flex flex-row items-center gap-[10px]'>
-                        <div className='h-[50px] w-[50px] bg-[#d7fec8] rounded-full shadow-xl'><FaRegQuestionCircle className='text-[#1b6535]'/></div>
+                        <div className='h-[50px] w-[50px] bg-[#d7fec8] rounded-full shadow-xl flex justify-center items-center'><FaRegQuestionCircle className='text-[#1b6535]'/></div>
                         <div>
                             <p className='text-[28px] font-bold'>About NACOS</p>
                             <p className='text-[18px]'>Brief history of NACOS National</p>
@@ -23,7 +23,7 @@ const Sec2home = () => {
             <div className='flex flex-row-reverse justify-between items-center w-full mt-[50px]'>
                 <div className='w-[50%]'>
                     <div className='flex flex-row-reverse items-center justify-start gap-[10px]'>
-                        <div className='h-[50px] w-[50px] bg-[#d7fec8] rounded-full shadow-xl'><FaRegQuestionCircle className='text-[#1b6535]'/></div>
+                        <div className='h-[50px] w-[50px] bg-[#d7fec8] rounded-full shadow-xl flex justify-center items-center'><FaRegQuestionCircle className='text-[#1b6535]'/></div>
                         <div>
                             <p className='text-[28px] font-bold text-right'>NACOS MTU</p>
                             <p className='text-[18px] text-right'>Brief history of the MTU Chapter</p>
