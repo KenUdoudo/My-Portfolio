@@ -7,11 +7,13 @@ import Home from './pages/Home';
 function App() {
   return (
     <div className='relative'>
+      <div className='bg-[url(./assets/NNL2.png)] bg-cover bg-no-repeat'>
       <Navbar />
 
       <Home />
 
       <Footer />
+      </div>
     </div>
   )
 }

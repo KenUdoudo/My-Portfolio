@@ -1,4 +1,5 @@
 import logo from './assets/blackLogo.png';
+import greenlogo from './assets/NNL2.png';
 import { FaRegQuestionCircle } from "react-icons/fa";
 const Sec2home = () => {
     return ( 
@@ -16,7 +17,7 @@ const Sec2home = () => {
                         <span className='text-[23px]'>T</span>he Nigerian Association of Computing Students (NACOS) is a student professional body with presence in almost all tertiary institutions in Nigeria (both private and government owned). NACOS was founded by groups of students in July 1993 with the backing of Nigerian Computer Society (NCS) as its parent body. It provides avenues for students (in any IT related feild) to highlight and champion issues for interest in a coordinated and organized manner.
                     </p>
                 </div>
-                <img src={ logo } />
+                <img src={ greenlogo } />
             </div>
 
             <div className='flex flex-row-reverse justify-between items-center w-full mt-[50px]'>
