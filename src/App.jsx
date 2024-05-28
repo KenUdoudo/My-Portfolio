@@ -7,7 +7,7 @@ import Home from './pages/Home';
 function App() {
   return (
     <div className='relative'>
-      <div className='bg-[url(./assets/NNL2.svg)] bg-cover bg-no-repeat bg-opacity-50'>
+      <div className='bg-[url(./assets/NNL2.svg)] bg-cover bg-no-repeat backdrop-opacity-25'>
       <Navbar />
 
       <Home />

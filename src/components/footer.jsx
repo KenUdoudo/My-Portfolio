@@ -60,7 +60,18 @@ const Footer = () => {
                 </div>
             </div>
             <hr className='my-[30px] border-color-[#e9e9e9]'/>
-            ©
+            
+            <div className='flex flex-row justify-between items-center'>
+                <div className='flex flex-row gap-[10px]'>
+                    <p className='text-white text-[11px] font-bold cursor-pointer'>TERMS AND CONDITIONS</p>
+                    <p className='text-white text-[11px] font-bold cursor-pointer'>PRIVACY POLICY</p>
+                </div>
+                <div className='flex flex-row items-center gap-[5px]'>
+                    <p className='text-white text-[11px] font-bold'>© | 2024</p>
+                    <p className='text-white text-[9px]'>Department of Computer Science and Mathematics, <br />Mountain Top University</p>
+                </div>
+            </div>
+            
         </div>
     );
 }
