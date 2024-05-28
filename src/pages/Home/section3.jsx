@@ -1,8 +1,8 @@
 import { useState } from "react";
-import one from './assets/1.png';
-import two from './assets/2.png';
-import three from './assets/3.png';
-import four from './assets/4.png';
+import one from './assets/1.svg';
+import two from './assets/2.svg';
+import three from './assets/3.svg';
+import four from './assets/4.svg';
 import { CgProfile } from "react-icons/cg";
 import { LiaArrowRightSolid } from "react-icons/lia";
 const Sec3home = () => {
