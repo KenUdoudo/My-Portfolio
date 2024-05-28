@@ -5,7 +5,7 @@ const Sec6home = () => {
         <div className="px-[50px] mt-[100px]">
             <div className="flex flex-row justify-start items-start w-full">
                 <div className='flex flex-row items-center gap-[10px]'>
-                    <div className='h-[50px] w-[50px] bg-[#d7fec8] rounded-full shadow-xl flex justify-center items-center'><HiOutlineSignal className='text-[#1b6535]'/></div>
+                    <div className='h-[50px] w-[50px] bg-[#d7fec8] rounded-full shadow-xl flex justify-center items-center'><HiOutlineSignal className='text-[#1b6535] w-[25px] h-[25px]'/></div>
                     <div>
                         <p className='text-[28px] font-bold'>Adverts</p>
                         <p className='text-[18px]'>Bring Deals, guy!</p>

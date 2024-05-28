@@ -11,13 +11,13 @@ const Sec3home = () => {
         <div className="px-[50px] mt-[100px]">
             <div className="flex flex-row justify-between items-center w-full">
                 <div className='flex flex-row items-center gap-[10px]'>
-                    <div className='h-[50px] w-[50px] bg-[#d7fec8] rounded-full shadow-xl flex justify-center items-center'><CgProfile className='text-[#1b6535]'/></div>
+                    <div className='h-[50px] w-[50px] bg-[#d7fec8] rounded-full shadow-xl flex justify-center items-center'><CgProfile className='text-[#1b6535] w-[25px] h-[25px]'/></div>
                     <div>
                         <p className='text-[28px] font-bold'>Executives</p>
                         <p className='text-[18px]'>Meet the Executive Committee</p>
                     </div>
                 </div>
-                <div className='h-[50px] w-[50px] bg-[#1b6535] rounded-full shadow-xl cursor-pointer hover:bg-[#30854e] transition-all duration-500 flex justify-center items-center'><LiaArrowRightSolid className='text-white'/></div>
+                <div className='h-[50px] w-[50px] bg-[#1b6535] rounded-full shadow-xl cursor-pointer hover:bg-[#30854e] transition-all duration-500 flex justify-center items-center'><LiaArrowRightSolid className='text-white w-[25px] h-[25px]'/></div>
             </div>
 
             <div className="flex flex-row w-full h-[500px] gap-x-[10px] mt-[50px]">
