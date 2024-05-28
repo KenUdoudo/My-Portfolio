@@ -26,21 +26,30 @@ const Footer = () => {
                         <p className='text-white cursor-pointer hover:text-[#e1bb72] text-[13px]'>Library</p>
                         <p className='text-white cursor-pointer hover:text-[#e1bb72] text-[13px]'>QHub</p>
                     </div>
-                    <div className='flex flex-col justify-start gap-[15px]'>
-                        <p className='text-white font-semibold cursor-default hover:border-b-[3px] transition-all duration-200'>Resources</p>
+                    <div className='flex flex-col justify-start gap-[15px] group'>
+                        <div className='relative text-white'>
+                            <span className='transition-all duration-300 ease-in-out'>RESOURCES</span>
+                            <span className='absolute bottom-[-7px] left-0 w-0 h-[3px] bg-white transition-all duration-300 ease-in-out group-hover:w-full'></span>
+                        </div>
                         <p className='text-white cursor-pointer hover:text-[#e1bb72] text-[13px]'>Blog</p>
                         <p className='text-white cursor-pointer hover:text-[#e1bb72] text-[13px]'>Gallery</p>
                     </div>
                 </div>
 
                 <div className='flex flex-row justify-center items-start gap-[70px]'>
-                    <div className='flex flex-col justify-start gap-[15px]'>
-                        <p className='text-white font-semibold cursor-default hover:border-b-[3px] transition-all duration-200'>Contact Us</p>
+                    <div className='flex flex-col justify-start gap-[15px] group'>
+                        <div className='relative text-white'>
+                            <span className='transition-all duration-300 ease-in-out'>CONTACT US</span>
+                            <span className='absolute bottom-[-7px] left-0 w-0 h-[3px] bg-white transition-all duration-300 ease-in-out group-hover:w-full'></span>
+                        </div>
                         <p className='text-white text-[13px] cursor-pointer'><span className='font-bold'>Email:</span> hello@nacos.mtu.edu.ng</p>
                         <p className='text-white text-[13px] cursor-default'><span className='font-bold'>Address:</span> College of Basic and <br /> Applied Sciences, Mountain Top <br />University, Km 12 Lagos Ibadan <br />Expressway, Ogun State.</p>
                     </div>
-                    <div className='flex flex-col justify-start gap-[10px]'>
-                        <p className='text-white font-semibold cursor-default hover:border-b-[3px] transition-all duration-200'>FOLLOW US</p>
+                    <div className='flex flex-col justify-start gap-[10px] group'>
+                        <div className='relative text-white'>
+                            <span className='transition-all duration-300 ease-in-out'>FOLLOW US</span>
+                            <span className='absolute bottom-[-7px] left-0 w-0 h-[3px] bg-white transition-all duration-300 ease-in-out group-hover:w-full'></span>
+                        </div>
                         <p className='text-white text-[13px] cursor-default'>We are on socials</p>
                         <div className='flex flex-row items-center gap-[10px]'>
                             <img src={ fb } className='cursor-pointer'/>
