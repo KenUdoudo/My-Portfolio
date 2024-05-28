@@ -15,8 +15,8 @@ const Footer = () => {
                 </div>
 
                 <div className=' flex flex-row justify-center items-start gap-[70px]'>
-                    <div className='flex flex-col justify-start gap-[15px]'>
-                        <div className='relative text-white group'>
+                    <div className='flex flex-col justify-start gap-[15px] group'>
+                        <div className='relative text-white'>
                             <span className='transition-all duration-300 ease-in-out'>NACOS</span>
                             <span className='absolute bottom-[-7px] left-0 w-0 h-[3px] bg-white transition-all duration-300 ease-in-out group-hover:w-full'></span>
                         </div>
