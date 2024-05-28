@@ -48,7 +48,7 @@ const Footer = () => {
                 </div>
             </div>
             <hr className='my-[30px] border-color-[#e9e9e9]'/>
-
+            ©
         </div>
     );
 }
