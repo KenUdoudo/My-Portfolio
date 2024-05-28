@@ -1,10 +1,11 @@
 import logo from './assets/whitelogo.png';
+import { HiOutlineSignal } from "react-icons/hi2";
 const Sec6home = () => {
     return (  
         <div className="px-[50px] mt-[100px]">
             <div className="flex flex-row justify-start items-start w-full">
                 <div className='flex flex-row items-center gap-[10px]'>
-                    <div className='h-[50px] w-[50px] bg-[#d7fec8] rounded-full shadow-xl'></div>
+                    <div className='h-[50px] w-[50px] bg-[#d7fec8] rounded-full shadow-xl'><HiOutlineSignal className='text-[#1b6535]'/></div>
                     <div>
                         <p className='text-[28px] font-bold'>Adverts</p>
                         <p className='text-[18px]'>Bring Deals, guy!</p>
