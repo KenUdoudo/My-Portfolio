@@ -15,7 +15,10 @@ const Navbar = () =>{
              </div>
 
              <button onClick={toggleMenu}><HiOutlineMenu className="h-[25px] w-[25px]"/></button>
-             
+
+             <div className={isOpen ? "" : ""}>
+                <p>omo</p>
+             </div>
              <div className='hidden md:flex flex-row justify-center items-center gap-x-[40px]'>
                 <p className='hover:text-[#e9e9e9] cursor-pointer transition-all duration-500'>Home</p>
                 <p className='hover:text-[#e9e9e9] cursor-pointer transition-all duration-500'>About</p>
