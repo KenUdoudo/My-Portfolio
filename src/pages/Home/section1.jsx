@@ -11,15 +11,16 @@ const Sec1home = () => {
                 <p className='text-[45px] text-white font-extrabold'>POWERED BY <br />COMPUTER SCIENCE</p>
                 <p className='text-[30px] text-white'>Empowered to Excel</p>
                 <p className='bg-[#1b6535] text-white py-[10px] px-[30px] cursor-pointer hover:bg-[#30854e] rounded-xl transition-all duration-500'>Learn About</p>
-            </div></div>
-
-            <div>
-                <div>
-                    <img src={ greenlogo } />
-                    <p>|</p>
-                    <img src={ schoollogo }/>
+            </div>
+            <div className='absolute bottom-[10px] left-[50px]'>
+                <div className='flex flex-row items-center'>
+                    <img src={ greenlogo } className='w-[50px] aspect-w-full'/>
+                    <span className='w-[5px] h-full bg-white'></span>
+                    <img src={ schoollogo } className='w-[50px] aspect-w-full'/>
                 </div>
             </div>
+            </div>
+
         </div>
     );
 }
