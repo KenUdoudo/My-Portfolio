@@ -9,7 +9,7 @@ function App() {
   return (
     <Router>
       <div className='relative'>
-        <div className='bg-[url(./assets/NNL2.svg)] bg-cover bg-no-repeat backdrop-opacity-25'>
+        {/*<div className='bg-[url(./assets/NNL2.svg)] bg-cover bg-no-repeat backdrop-opacity-25'>*/}
         <Navbar />
         <div className='content'>
           <Routes>
@@ -18,7 +18,7 @@ function App() {
         </div>
         <Footer />
         </div>
-      </div>
+      {/*</div>*/}
     </Router>
   )
 }
