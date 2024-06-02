@@ -1,6 +1,7 @@
 import logo from '../assets/blacklogo.svg';
 import { HiOutlineMenu } from "react-icons/hi";
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 const Navbar = () =>{
     const [isOpen, setIsOpen] = useState(false);
 
@@ -34,7 +35,7 @@ const Navbar = () =>{
              </div>
 
              <div className='hidden md:flex flex-row justify-center items-center gap-x-[10px] lg:gap-x-[30px] xl:gap-x-[40px]'>
-                <p className='hover:text-[#e9e9e9] text-[13px] lg:text-[16px] cursor-pointer transition-all duration-500'>Home</p>
+                <Link to="/" className='hover:text-[#e9e9e9] text-[13px] lg:text-[16px] cursor-pointer transition-all duration-500'>Home</Link>
                 <p className='hover:text-[#e9e9e9] text-[13px] lg:text-[16px] cursor-pointer transition-all duration-500'>About</p>
                 <p className='hover:text-[#e9e9e9] text-[13px] lg:text-[16px] cursor-pointer transition-all duration-500'>Events</p>
                 <p className='hover:text-[#e9e9e9] text-[13px] lg:text-[16px] cursor-pointer transition-all duration-500'>Library</p>
@@ -43,7 +44,7 @@ const Navbar = () =>{
                     <p className='hover:text-[#e9e9e9] text-[13px] lg:text-[16px] cursor-pointer transition-all duration-500'>Resources</p>
 
                 </div>
-                <p className='hover:text-[#e9e9e9] text-[13px] lg:text-[16px] cursor-pointer transition-all duration-500'>Alumini</p>
+                <Link to="/alumini" className='hover:text-[#e9e9e9] text-[13px] lg:text-[16px] cursor-pointer transition-all duration-500'>Alumini</Link>
              </div>
 
              <p className='hidden md:block bg-[#1b6535] text-white py-[10px] px-[20px] cursor-pointer hover:bg-[#30854e] rounded-lg transition-all duration-500'>Contact Us</p>

@@ -3,6 +3,7 @@ import './App.css'
 import Footer from './components/footer';
 import Navbar from './components/navbar';
 import Home from './pages/Home';
+import Alumini from './pages/Alumini/alumini';
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
         <div className='content'>
           <Routes>
             <Route path='/' element={<Home />} />
+            <Route pathe='/alumini' element={<Alumini />} />
           </Routes>
         </div>
         <Footer />
