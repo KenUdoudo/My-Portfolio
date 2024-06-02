@@ -15,7 +15,7 @@ function App() {
         <div className='content'>
           <Routes>
             <Route path='/' element={<Home />} />
-            <Route pathe='/alumini' element={<Alumini />} />
+            <Route path='/alumini' element={<Alumini />} />
           </Routes>
         </div>
         <Footer />
