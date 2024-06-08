@@ -2,6 +2,7 @@ import logo from '../assets/whitelogo.png';
 import fb from '../assets/fb.png';
 import ig from '../assets/ig.png';
 import x from '../assets/x.png';
+import { Link } from 'react-router-dom';
 const Footer = () => {
     return (  
         <div className="px-[20px] md:px-[50px] py-[30px] mt-[100px] bg-black">
