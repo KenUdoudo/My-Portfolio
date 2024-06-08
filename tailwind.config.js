@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        pop: ["Archivo", "" ],
+        pop: ["Archivo", "system-ui" ],
       },
     },
   },
