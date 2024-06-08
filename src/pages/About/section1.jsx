@@ -1,6 +1,6 @@
 const Sec1About = () => {
     return (  
-        <div className="pt-[70px] lg:pt-[120px] px-[20px] lg:px-[50px]">
+        <div className="pt-[70px] lg:pt-[120px] px-[20px] lg:px-[50px] font-pop">
             <p className="text-center text-[20px] md:text-[25px] font-bold">About NACOS</p>
 
             <div className="flex flex-col md:flex-row w-full mt-[20px] gap-y-[30px] md:gap-x-[40px]">

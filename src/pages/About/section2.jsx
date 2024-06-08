@@ -1,6 +1,6 @@
 const Sec2About = () => {
     return (
-        <div className="flex flex-col-reverse md:flex-row justify-between items-center py-[40px] px-[20px] lg:px-[50px] gap-y-[30px] w-full">
+        <div className="flex flex-col-reverse md:flex-row justify-between items-center py-[40px] px-[20px] lg:px-[50px] gap-y-[30px] w-full font-pop">
             <div className="text-center md:w-[35%]">
                 <p className="text-[18px]">OVER</p>
                 <p className="text-[25px] text-[#1b6535] font-bold">1,000,000</p>

@@ -1,6 +1,6 @@
 const Sec4About = () => {
     return (  
-        <div className="w-full flex flex-col md:flex-row justify-between gap-y-[20px] px-[20px] lg:px-[50px] mt-[40px] lg:mt-[120px]">
+        <div className="w-full flex flex-col md:flex-row justify-between gap-y-[20px] px-[20px] lg:px-[50px] mt-[40px] lg:mt-[120px] font-pop">
             <div className="flex flex-col gap-[10px] md:w-[45%]">
                 <p className="p-[30px] bg-white rounded-lg shadow-md"><span className="text-[18px] font-semibold">Slogan</span> <br /> Great NACOSites! Networking the World</p>
                 <p className="p-[30px] bg-white rounded-lg shadow-md"><span className="text-[18px] font-semibold">Motto</span> <br /> Towards Advanced Computing</p>
