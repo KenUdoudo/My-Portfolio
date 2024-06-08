@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        pop: ["Poppins", "" ],
+        pop: ["Archivo", "" ],
       },
     },
   },
