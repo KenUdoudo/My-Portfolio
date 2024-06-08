@@ -20,9 +20,9 @@ const Footer = () => {
                             <span className='transition-all duration-300 ease-in-out font-bold'>NACOS</span>
                             <span className='absolute bottom-[-7px] left-0 w-0 h-[3px] bg-white transition-all duration-300 ease-in-out group-hover:w-full'></span>
                         </div>
-                        <p className='text-white cursor-pointer hover:text-[#e1bb72] text-[13px]'>Home</p>
-                        <p className='text-white cursor-pointer hover:text-[#e1bb72] text-[13px]'>About</p>
-                        <p className='text-white cursor-pointer hover:text-[#e1bb72] text-[13px]'>Events</p>
+                        <Link to="/" className='text-white cursor-pointer hover:text-[#e1bb72] text-[13px]'>Home</Link>
+                        <Link to="/about" className='text-white cursor-pointer hover:text-[#e1bb72] text-[13px]'>About</Link>
+                        <Link to="/events" className='text-white cursor-pointer hover:text-[#e1bb72] text-[13px]'>Events</Link>
                         <p className='text-white cursor-pointer hover:text-[#e1bb72] text-[13px]'>Library</p>
                         <p className='text-white cursor-pointer hover:text-[#e1bb72] text-[13px]'>QHub</p>
                     </div>

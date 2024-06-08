@@ -21,7 +21,7 @@ const Navbar = () =>{
              <div className={`fixed top-0 right-0 h-full bg-[#e9e9e9] w-[75%] transform ${isOpen ? '-translate-x-0' : 'translate-x-full'} transition-transform duration-500 ease-in-out overflow-hidden`}>
                 <div className='flex flex-col items-start gap-y-[20px] px-[20px] py-[20px]'>
                     <Link to="/" className='hover:text-[#e9e9e9] cursor-pointer transition-all duration-500 text-[20px] font-semibold'>Home</Link>
-                    <p className='hover:text-[#e9e9e9] cursor-pointer transition-all duration-500 text-[20px] font-semibold'>About</p>
+                    <Link to="/about" className='hover:text-[#e9e9e9] cursor-pointer transition-all duration-500 text-[20px] font-semibold'>About</Link>
                     <Link to="/events" className='hover:text-[#e9e9e9] cursor-pointer transition-all duration-500 text-[20px] font-semibold'>Events</Link>
                     <p className='hover:text-[#e9e9e9] cursor-pointer transition-all duration-500 text-[20px] font-semibold'>Library</p>
                     <p className='hover:text-[#e9e9e9] cursor-pointer transition-all duration-500 text-[20px] font-semibold'>QHub</p>
@@ -36,7 +36,7 @@ const Navbar = () =>{
 
              <div className='hidden md:flex flex-row justify-center items-center gap-x-[10px] lg:gap-x-[30px] xl:gap-x-[40px]'>
                 <Link to="/" className='hover:text-[#e9e9e9] text-[13px] lg:text-[16px] cursor-pointer transition-all duration-500'>Home</Link>
-                <p className='hover:text-[#e9e9e9] text-[13px] lg:text-[16px] cursor-pointer transition-all duration-500'>About</p>
+                <Link to="/about" className='hover:text-[#e9e9e9] text-[13px] lg:text-[16px] cursor-pointer transition-all duration-500'>About</Link>
                 <Link to="/events" className='hover:text-[#e9e9e9] text-[13px] lg:text-[16px] cursor-pointer transition-all duration-500'>Events</Link>
                 <p className='hover:text-[#e9e9e9] text-[13px] lg:text-[16px] cursor-pointer transition-all duration-500'>Library</p>
                 <p className='hover:text-[#e9e9e9] text-[13px] lg:text-[16px] cursor-pointer transition-all duration-500'>QHub</p>
