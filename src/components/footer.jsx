@@ -5,7 +5,7 @@ import x from '../assets/x.png';
 import { Link } from 'react-router-dom';
 const Footer = () => {
     return (  
-        <div className="px-[20px] md:px-[50px] py-[30px] mt-[100px] bg-black">
+        <div className="px-[20px] md:px-[50px] py-[30px] mt-[100px] bg-black font-pop">
             <div className="flex flex-col md:flex-row justify-between gap-y-[20px] items-start w-full">
                 <div className='flex flex-col justify-start items-start gap-[10px] w-full md:w-[30%]'>
                     <div className='flex flex-row items-center gap-[5px] md:gap-[10px]'>

@@ -5,7 +5,7 @@ import four from './assets/4.png'
 import five from './assets/5.png'
 const Alumini = () => {
     return (
-        <div className="h-[500px] relative">
+        <div className="h-[500px] relative font-pop">
             <div className="text-center py-[250px]">
             <p className="text-[25px] font-semibold">Alumini is coming soon</p>
             <p>Please check back in some time</p>

@@ -1,6 +1,6 @@
 const Sec1Event = () => {
     return (  
-        <div className="pt-[70px] lg:pt-[90px] px-[20px] md:px-[50px]">
+        <div className="pt-[70px] lg:pt-[90px] px-[20px] md:px-[50px] font-pop">
             <p className="font-semibold">Upcoming Events</p>
 
             <div className="px-[10px] flex flex-col w-full mt-[20px] gap-[10px]">
