@@ -16,6 +16,30 @@ const Sec2Event = () => {
                         <p className="text-[13px] md:text-[16px] lg:text-[20px]">Third week of April</p>
                     </div>
                 </div>
+                <div className="w-full flex flex-row justify-between">
+                    <div className="flex flex-col justify-start items-start w-[45%]">
+                        <div className="w-full bg-[#e9e9e9] h-[130px] md:h-[200px] lg:h-[270px] rounded-lg mb-[5px]"></div>
+                        <p className="font-semibold text-[13px] md:text-[16px] lg:text-[20px]">SRC Students' Week</p>
+                        <p className="text-[13px] md:text-[16px] lg:text-[20px]">June 16 - June 23</p>
+                    </div>
+                    <div className="flex flex-col justify-start items-start w-[45%]">
+                        <div className="w-full bg-[#e9e9e9] h-[130px] md:h-[200px] lg:h-[270px] rounded-lg mb-[5px]"></div>
+                        <p className="font-semibold text-[13px] md:text-[16px] lg:text-[20px]">Software Engineering Semester</p>
+                        <p className="text-[13px] md:text-[16px] lg:text-[20px]">April 31</p>
+                    </div>
+                </div>
+                <div className="w-full flex flex-row justify-between">
+                    <div className="flex flex-col justify-start items-start w-[45%]">
+                        <div className="w-full bg-[#e9e9e9] h-[130px] md:h-[200px] lg:h-[270px] rounded-lg mb-[5px]"></div>
+                        <p className="font-semibold text-[13px] md:text-[16px] lg:text-[20px]">Examination Begins</p>
+                        <p className="text-[13px] md:text-[16px] lg:text-[20px]">June 25</p>
+                    </div>
+                    <div className="flex flex-col justify-start items-start w-[45%]">
+                        <div className="w-full bg-[#e9e9e9] h-[130px] md:h-[200px] lg:h-[270px] rounded-lg mb-[5px]"></div>
+                        <p className="font-semibold text-[13px] md:text-[16px] lg:text-[20px]">School Closes</p>
+                        <p className="text-[13px] md:text-[16px] lg:text-[20px]">July 16</p>
+                    </div>
+                </div>
             </div>
         </div>
     );
