@@ -36,7 +36,7 @@ const Footer = () => {
                     </div>
                 </div>
 
-                <div className='flex flex-row justify-center items-start gap-[70px] md:gap-[30px] lg:gap-[70px]'>
+                <div className='flex flex-row justify-center items-start gap-[50px] md:gap-[30px] lg:gap-[70px]'>
                     <div className='flex flex-col justify-start gap-[6px] md:gap-[15px] group'>
                         <div className='relative text-white'>
                             <span className='transition-all duration-300 ease-in-out font-bold'>CONTACT US</span>
