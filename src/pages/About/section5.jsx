@@ -10,6 +10,10 @@ import nine from './assets/9.png';
 import ten from './assets/10.png';
 import eleven from './assets/11.png';
 import twelve from './assets/12.png';
+import thirteen from './assets/13.png';
+import fourteen from './assets/14.png';
+import fifteen from './assets/15.png';
+import sixteen from './assets/16.png';
 const Sec5About = () => {
     return (  
         <div className="px-[20px] lg:px-[50px] mt-[40px] lg:mt-[120px] font-pop">
@@ -75,6 +79,26 @@ const Sec5About = () => {
                     <img src={ twelve }/>
                     <p className='font-semibold md:text-[25px]'>Success Samuel</p>
                     <p className='text-[13px] md:text-[18px]'>Chairman, Media and Coverage</p>
+                </div>
+                <div className="flex flex-col justify-start items-start w-[40%] aspect-w-full">
+                    <img src={ thirteen }/>
+                    <p className='font-semibold md:text-[25px]'>Clinton Obigho</p>
+                    <p className='text-[13px] md:text-[18px]'>Chief Whip</p>
+                </div>
+                <div className="flex flex-col justify-start items-start w-[40%] aspect-w-full">
+                    <img src={ fourteen }/>
+                    <p className='font-semibold md:text-[25px]'>Kesnia Uchendu</p>
+                    <p className='text-[13px] md:text-[18px]'>Clerk</p>
+                </div>
+                <div className="flex flex-col justify-start items-start w-[40%] aspect-w-full">
+                    <img src={ fifteen }/>
+                    <p className='font-semibold md:text-[25px]'>Paul Etok</p>
+                    <p className='text-[13px] md:text-[18px]'>Chairman, Production and Sales</p>
+                </div>
+                <div className="flex flex-col justify-start items-start w-[40%] aspect-w-full">
+                    <img src={ sixteen }/>
+                    <p className='font-semibold md:text-[25px]'>Kayode Toluwani</p>
+                    <p className='text-[13px] md:text-[18px]'>Chairman, Welfare Unit</p>
                 </div>
             </div>
         </div>
